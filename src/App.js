@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import FirstComponent from "./Components/FirstComponent";
+import SecondComponent from "./Components/SecondComponent";
+
+// node modules : dependency / library files are stored in node modules locally
+
+// App.js is React "Component"  // One whole application is divided into smaller parts which are called as components
+
+// JSX : XML / HTML wrapped in Javascript
+
+// hooks : React hooks used to handle or modify code .
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <FirstComponent />
     </div>
   );
 }
