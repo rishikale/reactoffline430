@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import FirstComponent from "./Components/FirstComponent";
 import SecondComponent from "./Components/SecondComponent";
+import Parent from "./Components/DataSharing/Parent";
 
 // node modules : dependency / library files are stored in node modules locally
 
@@ -14,7 +15,7 @@ import SecondComponent from "./Components/SecondComponent";
 function App() {
   return (
     <div className="App">
-      <FirstComponent />
+      <Parent />
     </div>
   );
 }
