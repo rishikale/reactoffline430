@@ -18,7 +18,7 @@ function Child(props) {
         // The execution of callback event in child component
         onClick={() => {
           setCount(Number + 5);
-          setString("ABCD");
+        //   setString("ABCD");
         }}
       >
         Change Count

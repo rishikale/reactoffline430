@@ -3,6 +3,7 @@ import "./App.css";
 import FirstComponent from "./Components/FirstComponent";
 import SecondComponent from "./Components/SecondComponent";
 import Parent from "./Components/DataSharing/Parent";
+import ContextParent from "./Components/Context/ContextParent";
 
 // node modules : dependency / library files are stored in node modules locally
 
@@ -15,7 +16,7 @@ import Parent from "./Components/DataSharing/Parent";
 function App() {
   return (
     <div className="App">
-      <Parent />
+      <ContextParent />
     </div>
   );
 }
