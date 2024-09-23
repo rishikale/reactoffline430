@@ -1,9 +1,5 @@
-import logo from "./logo.svg";
 import "./App.css";
-import FirstComponent from "./Components/FirstComponent";
-import SecondComponent from "./Components/SecondComponent";
-import Parent from "./Components/DataSharing/Parent";
-import ContextParent from "./Components/Context/ContextParent";
+import ReactRouter from "./Components/ReactRouter/ReactRouter";
 
 // node modules : dependency / library files are stored in node modules locally
 
@@ -16,7 +12,7 @@ import ContextParent from "./Components/Context/ContextParent";
 function App() {
   return (
     <div className="App">
-      <ContextParent />
+      <ReactRouter />
     </div>
   );
 }
